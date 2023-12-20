@@ -11,7 +11,7 @@
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@sanity/image-url": "^1.0.2",
-    "@sanity/vision": "^3.21.3",
+    "@sanity/vision": "^3.23.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.298.0",
@@ -19,7 +19,8 @@
     "query-string": "^8.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "sanity": "^3.21.3",
+    "sanity": "^3.23.1",
+    "styled-components": "^6.1.2",
     "tailwind-merge": "^2.1.0",
     "tailwindcss-animate": "^1.0.7"
   },
