@@ -18,9 +18,8 @@ const Filters = () => {
         if(active === link) {
         setActive("");
             newUrl = formUrlQuery({
-            params: searchParams.toString(),
-            key: "category",
-            value: null,
+                params: searchParams.toString(),
+                keysToRemove: ["category"],
         })
         } else {
             setActive(link);
